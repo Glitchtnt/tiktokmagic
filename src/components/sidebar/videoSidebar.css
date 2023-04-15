@@ -1,0 +1,22 @@
+.videoSidebar {
+  position: absolute;
+  top: 60%;
+  right: 20px;
+  color: white;
+}
+
+.videoSidebar_items {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Responsivo */
+@media only screen and (max-width: 440px) {
+  .videoSidebar {
+    top: 55%;
+  }
+}
